@@ -8,14 +8,13 @@ tot = 0 # running total
 while True:
     sval = input('Enter a number: ')
     if sval == 'done' :
-        break # stop here, not later in code, exit mechanism
+        break # exit mechanism = stop here, not later in code
     try:
         intval = int(sval) # this part can be problematic, so needs to be put in a try/except
     except:
         print('Invalid input')
         continue # input was invalid, dont change num and tot, go back to start of while loop
-    print:(intval) # prints last correct user-entered value
-
+    print(intval) # prints last correct user-entered value
     num = num + 1
     tot = tot + intval
 
