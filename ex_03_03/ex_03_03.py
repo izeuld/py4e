@@ -1,3 +1,5 @@
+# Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table:
+
 score = input("Enter score:")
 fscore = float(score)
 if  0.0 <= fscore <= 1.0: # that's why Python rules!

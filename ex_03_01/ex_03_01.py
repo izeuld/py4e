@@ -1,3 +1,5 @@
+# Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
+
 # asking user for input
 inputhrs = input("Enter Hours:")
 inputrate = input("Enter Rate:")
