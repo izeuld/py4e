@@ -9,6 +9,7 @@ def computepay(hours, rate):
         frate = float(rate)
     except:
         print('Provide a numeric value')
+        # ?  why is it not allowed to put continue here?
     pay = fhours * frate
     print pay
 
